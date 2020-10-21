@@ -1,0 +1,100 @@
+/*color and front*/
+body {
+	background-color: #93b1a7;
+	color: black;
+	font-family: arial;
+	font-size: 16px;
+	letter-spacing:2px;
+	font-weight: 150;
+}
+
+h1 {
+	color: white;
+	font-family: Open+Sans+Condensed:wght@300&family;
+	font-weight: 90;
+	letter-spacing:10px;
+}
+
+h2 {
+color: white;
+font-family: Helvetica; 
+font-weight: 60;
+letter-spacing: 5px;
+line-height: 2;
+font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+ a:hover {
+ 	color:red;
+ }
+
+/*custom design with class*/
+#leader{
+ border-radius: 50%;
+}
+
+.btn-white {
+	background-color: white;
+	color:#93b1a7;
+	padding:15px 20px;
+	border-radius: 5px;
+}
+.presentation-playlist {
+	margin-bottom: 50px;
+}
+
+.btn-white:hover {
+background-color: black;
+color:white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	text-align: center
+}
+
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+
+.list-inline i {
+font-size: 50px
+}
+
+.list-inline i:hover{
+color: black;
+}
+
+.container{
+width: 700px;
+margin: 40px auto;
+}
+
+
+.text-design{
+	padding: 40px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.text-center{
+	text-align: center;
+}
+
+@media (max-width: 760px) {
+.container{
+width: 90%;
+}
+
+@media (max-width: 500px) {
+.container{
+width: 90%;
+}
+
+
